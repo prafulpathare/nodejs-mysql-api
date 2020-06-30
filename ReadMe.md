@@ -7,13 +7,13 @@
       <li>Start MySQL.</li>
       <li>Create MySQL DB with name `testdb`.</li>
       <li>Create table `customers` with following command:
-          <pre>
+          <code>
         CREATE TABLE IF NOT EXISTS `customers` (
           id int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
           email varchar(255) NOT NULL,
           name varchar(255) NOT NULL,
           active BOOLEAN DEFAULT false
-        ) ENGINE=InnoDB DEFAULT CHARSET=utf8;</pre>
+        ) ENGINE=InnoDB DEFAULT CHARSET=utf8;</code>
       </li>
       <li>Run app.js via `node app.js` command.</li>
     </ul>
