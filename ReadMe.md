@@ -1,5 +1,5 @@
 # A simple NodeJS and MySQL API
-### Steps to be followed :
+#### Steps to be followed :
 1. Start MySQL
 2. Create database __testdb__.
 3. Create table `customers` by following SQL command :
