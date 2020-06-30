@@ -1,4 +1,4 @@
-# A simple NodeJS and MySQL API
+## A simple NodeJS and MySQL API
 #### Steps to be followed :
 1. Start MySQL
 2. Create database __testdb__.
