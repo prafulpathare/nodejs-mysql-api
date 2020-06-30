@@ -1,8 +1,7 @@
 # A simple Web API with Node and MySQL
 
 1. Start MySQL.
-2. Create MySQL DB with name
-> __testdb__.
+2. Create MySQL DB with name __testdb__.
 3. Create table `customers` with following command: 
 ```
 CREATE TABLE IF NOT EXISTS customers (` 
@@ -12,4 +11,4 @@ CREATE TABLE IF NOT EXISTS customers (`
     active BOOLEAN DEFAULT false
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
-4. Run app.js via `node app.js` command.
+4. Run server ```> node app.js```
